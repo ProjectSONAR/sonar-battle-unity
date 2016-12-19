@@ -25,4 +25,10 @@ public class PlayerController : MonoBehaviour {
 	void Update () {
 		
 	}
+
+	void OnCollisionEnter2D(Collision2D col)
+	{
+		//This works
+		//Debug.Log ("Collision!");
+	}
 }
