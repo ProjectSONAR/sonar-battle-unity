@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{9662AEDA-7228-9875-2195-73BE8A61AF4F}") = "Sonar Battle", "Assembly-CSharp.csproj", "{726C56DB-8196-D0CD-53D4-C361D29FA195}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{726C56DB-8196-D0CD-53D4-C361D29FA195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{726C56DB-8196-D0CD-53D4-C361D29FA195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{726C56DB-8196-D0CD-53D4-C361D29FA195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{726C56DB-8196-D0CD-53D4-C361D29FA195}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
