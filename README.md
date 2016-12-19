@@ -27,8 +27,8 @@ Feature | Status
 Map Loading | WIP
 Player Controls | FINISHED
 Player Weapons | Not Started
-Player Shields | Not Started
-Sonar Mechanics | Not Started
+Player Shields | WIP
+Sonar Mechanics | WIP
 GUI | Not Started
 Audio (Background Music) | Not Started
 Audio (SFX) | Not Started
