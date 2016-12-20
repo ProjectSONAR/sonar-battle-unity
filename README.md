@@ -24,9 +24,9 @@ Project timeline in approximate order of priority:
 
 Feature | Status
 --- | ---
-Map Loading | WIP
+Map Loading | Functional
 Player Controls | FINISHED
-Player Weapons | Not Started
+Player Weapons | Functional
 Player Shields | WIP
 Sonar Mechanics | WIP
 GUI | Not Started
