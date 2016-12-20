@@ -28,7 +28,12 @@ public class PlayerController : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+<<<<<<< HEAD
         if (Input.GetKeyDown(KeyCode.Space))
+=======
+
+        if (Input.GetKeyDown (KeyCode.Space))
+>>>>>>> d15ff490b744295655c0cdaf4a5bb30b568ff201
         {
             moveSpeed *= multiplySpeed;
         }
@@ -37,12 +42,4 @@ public class PlayerController : MonoBehaviour {
             moveSpeed /= multiplySpeed;
         }
     }
-
-	/*void OnCollisionEnter2D(Collision2D col)
-	{
-        if (col.gameObject.name == "DefaultWall(Clone)")
-        {
-            Destroy(col.gameObject);
-        }
-	}*/
 }

@@ -25,17 +25,17 @@ public class ShieldController : MonoBehaviour {
 		noiseLevel.transform.rotation = playerSprite.transform.rotation;
 
 
+
 		if (Input.GetKeyDown (KeyCode.Q)) {
 			IsShieldActive = !IsShieldActive;
-		}
 
-
-		if (IsShieldActive) {
-			shield.SetActive (true);
-			noiseLevel.transform.localScale = new Vector3(7,7,1);
-		} else {
-			shield.SetActive (false);
-			noiseLevel.transform.localScale = new Vector3(4,4,1);
+			if (IsShieldActive) {
+				shield.SetActive (true);
+				noiseLevel.transform.localScale = new Vector3(7,7,1);
+			} else {
+				shield.SetActive (false);
+				noiseLevel.transform.localScale = new Vector3(4,4,1);
+			}
 		}
 	}
 }
