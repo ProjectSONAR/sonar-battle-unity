@@ -1,3 +1,6 @@
 Sonar Battle/Library/
 Sonar Battle/Temp/
-.vs/
+Sonar Battle/.vs/
+*/Library/
+*/Temp/
+*/.vs/

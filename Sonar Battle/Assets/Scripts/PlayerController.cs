@@ -28,7 +28,9 @@ public class PlayerController : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D col)
 	{
-		//This works
-		//Debug.Log ("Collision!");
+        if (col.gameObject.name == "DefaultWall.prefab")
+        {
+            Destroy(col.gameObject);
+        }
 	}
 }
