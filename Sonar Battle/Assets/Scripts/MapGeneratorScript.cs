@@ -78,7 +78,7 @@ public class MapGeneratorScript : MonoBehaviour {
         int wallCount = 0;
         for (int neighbourX = gridX -1; neighbourX <= gridX + 1; neighbourX++)
         {
-            for (int neighbourY = gridX - 1; neighbourY <= gridX + 1; neighbourY++)
+            for (int neighbourY = gridY - 1; neighbourY <= gridY + 1; neighbourY++)
             {
                 if (neighbourX >= 0 && neighbourX < MapSizeX && neighbourY >= 0 && neighbourY < MapSizeY)
                 {
