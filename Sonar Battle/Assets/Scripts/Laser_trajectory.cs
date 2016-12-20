@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+<<<<<<< HEAD
 public class Laser_trajectory : MonoBehaviour {
 
 
@@ -38,3 +39,6 @@ public class Laser_trajectory : MonoBehaviour {
         }
     }
 }
+=======
+
+>>>>>>> 37272a69921e4fbb01468cead4ea90ca7627dde8

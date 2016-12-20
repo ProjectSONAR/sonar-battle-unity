@@ -22,13 +22,25 @@ public class PlayerController : MonoBehaviour {
         
         if (Input.GetKeyDown(KeyCode.W))
         {
+<<<<<<< HEAD
 			Instantiate(Lasers[0], new Vector3(transform.position.x, transform.position.y, 0), Quaternion.identity * transform.rotation);
+=======
+            Instantiate(Lasers[0], new Vector3(transform.position.x, transform.position.y, 0), transform.rotation);
+>>>>>>> 37272a69921e4fbb01468cead4ea90ca7627dde8
         }
     }
 
 	// Update is called once per frame
 	void Update () {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        if (Input.GetKeyDown(KeyCode.Space))
+=======
+
+>>>>>>> 37272a69921e4fbb01468cead4ea90ca7627dde8
         if (Input.GetKeyDown (KeyCode.Space))
+>>>>>>> d15ff490b744295655c0cdaf4a5bb30b568ff201
         {
             moveSpeed *= multiplySpeed;
         }
