@@ -2,21 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WallController : MonoBehaviour {
+public class Laser_trajectory : MonoBehaviour {
 
+
+    public float movespeed;
 	// Use this for initialization
 	void Start () {
 		
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
+        transform.Translate(transform.up * movespeed);
 		
 	}
-
     void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.name == "PlayerSprite")
+        if (col.gameObject.name == "DefaultWall(Clone)")
         {
             Destroy(gameObject);
         }
