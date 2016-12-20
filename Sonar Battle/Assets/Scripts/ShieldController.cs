@@ -25,7 +25,11 @@ public class ShieldController : MonoBehaviour {
 		noiseLevel.transform.rotation = playerSprite.transform.rotation;
 
 
+<<<<<<< HEAD
 		if (Input.GetKeyDown (KeyCode.Space)) {
+=======
+		if (Input.GetKeyDown (KeyCode.Q)) {
+>>>>>>> 155e3e0652102e110ffd019d861fbf420cd0fff7
 			IsShieldActive = !IsShieldActive;
 		}
 

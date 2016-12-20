@@ -4,8 +4,13 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
 
+<<<<<<< HEAD
 	public float moveSpeed = 0.5f;
 
+=======
+	public float moveSpeed;
+    public float multiplySpeed;
+>>>>>>> 155e3e0652102e110ffd019d861fbf420cd0fff7
 	private Vector3 mousePos;
 
 	// Use this for initialization
@@ -23,6 +28,7 @@ public class PlayerController : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+<<<<<<< HEAD
 		
 	}
 
@@ -33,4 +39,24 @@ public class PlayerController : MonoBehaviour {
             Destroy(col.gameObject);
         }
 	}
+=======
+        if (Input.GetKeyDown (KeyCode.Space))
+        {
+            moveSpeed *= multiplySpeed;
+        }
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            moveSpeed /= multiplySpeed;
+        }
+
+    }
+
+	/*void OnCollisionEnter2D(Collision2D col)
+	{
+        if (col.gameObject.name == "DefaultWall(Clone)")
+        {
+            Destroy(col.gameObject);
+        }
+	}*/
+>>>>>>> 155e3e0652102e110ffd019d861fbf420cd0fff7
 }
