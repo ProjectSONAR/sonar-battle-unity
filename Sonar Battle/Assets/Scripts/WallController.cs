@@ -16,7 +16,9 @@ public class WallController : MonoBehaviour {
 
     void OnCollisionEnter2D(Collision2D col)
     {
+        if (col.gameObject.name == "PlayerSprite")
+        {
             Destroy(gameObject);
-   
+        }
     }
 }
